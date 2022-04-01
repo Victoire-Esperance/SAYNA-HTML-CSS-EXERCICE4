@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@font-face {
+    font-family: 'homecoming';
+    src: url(/Assets/font/Far-From\ Homecoming\ Updated.otf) format(otf);
+}
+header{
+    background-color:var(--color-red);
+    
+    
+}
+/*boutton*/
+.buttony:hover{
+    background-color: none;
+}
+.buttona{
+    background: var(--color-white);
+    color: var(--color-red);
+    border-radius: 5px;}
+.buttony{
+    border: 1px solid;
+    color: var(--color-white);
+}
+/*spiderman sans separateur*/
+.baba{
+    background: var(--color-red);
+    height:auto;
+}
+.headerb{
+    display: none;
+}
+.second{
+    background-color: var(--color-white);
+    color: var(--color-red);
+   border-radius: 10px;
+}
+.best{
+    position: relative;
+    right: -7%;
+}
+/*footer*/
+footer{
+    background-color: var(--color-black);
+    font-size: 11px;
+    padding-top: 5%;
+}
+.footera{
+    margin-bottom: -2%;
+}
+.footerb{
+    margin-left: 18%;
+}
+.footerc{
+    word-spacing: 10px;
+}
+select{background-color: var(--color-red);
+    border-radius: 6px;
+    color: var(--color-white);
+    border: none;
+    }
+.rouge{
+    background-color: var(--color-red);
+    border-radius: 45%;
+    width: 3%;
+    padding: 2px;
+}
+@media all and (max-width:768px ) {
+    .footera{
+        margin-bottom: -8%;
+    }
+    .headerb{
+        display: block;
+        padding-top: 10%;
+    }
+    .footerd{
+        margin-left: 8.5%;
+    }
+    .footerq{
+        margin-left: 70%;
+        margin-top: -10%;
+        
+    }
+}

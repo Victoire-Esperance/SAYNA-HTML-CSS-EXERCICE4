@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@font-face {
+    font-family: 'homecoming';
+    src: url(/Assets/font/Far-From\ Homecoming\ Updated.otf) format(otf);
+}
+:root{
+    --color-red:#B11313;
+    --color-yelow:#F1C530;
+    --color-black:#000000;
+    --color-white:#FFFFFF;
+    --color-blue:#144C92;
+
+} 
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: var(--color-white);
+    
+}
+
+a{
+    color: var(--color-white);
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color:var(--color-white);}
+h1{
+    font-family:'homecoming';
+    }
+h2{
+   font-family: 'Montserrat' ;
+    }
+h3{
+ font-family: 'Montserrat';
+    }
+.small {
+    font-size: small;
+}
+    @media all and (max-width:768px ) {
+    
+    
+}

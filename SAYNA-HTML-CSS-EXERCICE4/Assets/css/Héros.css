@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@font-face {
+    font-family: 'homecoming';
+    src: url(/Assets/font/Far-From\ Homecoming\ Updated.otf) format(otf);
+}
+header{
+    background-color:var(--color-blue)
+    
+}
+.headerb{
+    display: none;
+}
+.partie1héros{
+    background-image: url(../Illustration/img19.png);
+    padding: 13%;
+}
+.aho{
+    background-image: url(../Illustration/img20.png)
+    ;
+}
+.sociale{
+    text-align: justify;
+}
+.vive{
+position: absolute;
+margin-left: 40%;
+margin-top: -22%;
+    
+}
+.sarysary{
+    word-spacing: 50px;
+}
+.sarysarya{
+    margin-left: 25%;
+}
+.chacha{
+    background-color: var(--color-blue);
+    width: 70%;
+    opacity: 0.7;
+    height: 600px;
+    margin-left: 8%;
+    
+}
+footer{
+    background-color: var(--color-black);
+    font-size: x-small;
+    padding-top: 5%;
+}
+.footera{
+    margin-bottom: -2%;
+}
+.footerb{
+    margin-left: 18%;
+}
+.footerc{
+    word-spacing: 10px;
+}
+select{background-color: var(--color-blue);
+    border-radius: 6px;
+    color: var(--color-white);
+    border: none;
+    }
+.bleu{
+    background-color: var(--color-blue);
+    border-radius: 50%;
+    width: 3%;
+    padding: 2px;
+}
+.menumobile{display: none;}
+@media all and (max-width:768px ) {
+    .footera{
+        margin-bottom: -8%;
+    }
+    .headerb{
+        display: block;
+        padding-top: 10%;
+    }
+    .footerd{
+        margin-left: 8.5%;
+    }
+    .footerq{
+        margin-left: 70%;
+        margin-top: -10%;
+        
+    }
+    .menuweb{
+        display: none;
+    }
+    .menumobile{ 
+        display: block;
+        text-align: left;
+        
+    }
+}
